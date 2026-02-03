@@ -1,0 +1,31 @@
+h2{
+  color: brown;
+
+}
+.body{
+    background-color:red;
+}
+.weather-btn {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+.weather-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+.city-input {
+  width: 300px;        /* increases input box width */
+  height: 45px;        /* increases input box height */
+  padding: 10px;       /* space inside the input (makes text & placeholder look centered) */
+  font-size: 16px;     /* increases placeholder & typed text size */
+  border-radius: 6px;  /* rounded corners */
+  border: 1px solid #ccc; /* light border */
+}
